@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>後台管理</title>
+<style>
+body { font-family: sans-serif; padding:20px; }
+h2 { margin-top: 40px; }
+table { border-collapse: collapse; width: 100%; margin-bottom:20px; }
+th, td { border:1px solid #ccc; padding: 8px; text-align: left; }
+th { background: #eee; }
+button { padding: 4px 8px; cursor: pointer; }
+</style>
+</head>
+<body>
+<h1>後台管理頁</h1>
+
+<h2>留言管理</h2>
+<table id="msg-table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>暱稱</th>
+      <th>留言</th>
+      <th>時間</th>
+      <th>操作</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<h2>投票管理</h2>
+<table id="vote-table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>選項</th>
+      <th>時間</th>
+      <th>操作</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 ========================= */
 /* 預設游標 */
 body {
-  cursor: url("images/bananaCat-cursor.png") 10 10, auto;
+  cursor: url("images/bananaCat-cursor.png") 5 5, auto;
 }
 
 /* 滑鼠移到指定元素時（貓貓2） */
@@ -12,8 +12,9 @@ a:hover,
 .arrow-btn:hover,
 #send-msg:hover,
 .vote-btn:hover,
+.msg-card:hover,
 .fanart-grid img:hover {
-  cursor: url("images/bananaCat-click.png") 10 10, auto;
+  cursor: url("images/bananaCat-click.png") 5 5, auto;
 }
 
 /* 文字輸入區 */
@@ -21,7 +22,7 @@ input:hover,
 textarea:hover,
 input:focus,
 textarea:focus {
-  cursor: url("images/bananaCat32-text.png") 10 10, auto; /* 貓貓3 */
+  cursor: url("images/bananaCat32-text.png") 5 5, auto; /* 貓貓3 */
 }
 
 body{
